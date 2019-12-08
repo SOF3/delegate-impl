@@ -1,0 +1,19 @@
+[package]
+name = "delegate-impl"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.9"
+heck = "0.3"
+proc-macro2 = "0.4"
+quote = "0.6"
+syn = {version = "0.15", features = ["full"]}
+
+[dev-dependencies]
+static_assertions = "0.3.4"
